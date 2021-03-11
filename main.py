@@ -2,7 +2,7 @@ import PyPDF2
 import pyttsx3
 
 pdfReader = PyPDF2.PdfFileReader(open('bmgf.pdf', 'rb'))
-
+"""with some changes"""
 speaker = pyttsx3.init()
 rate = speaker.getProperty('rate')
 print(rate)
